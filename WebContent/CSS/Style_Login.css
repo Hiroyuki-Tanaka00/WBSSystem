@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* ボディ全体の背景色と文字色 */
+body {
+  background-color: white;
+  color: black;
+}
+
+/* タイトル文字のサイズと位置 */
+title {
+  font-size: 36px;
+  text-align: center;
+}
+
+h1,h2{
+	text-align: center;
+}
+
+div.container {
+  display: flex;
+  justify-content: center;
+}
+
+div.container a {
+  margin: 0 200px; /* 適宜マージンの値を調整 */
+}
+
+/* フォーム要素全体の幅と位置 */
+form {
+  width: 300px;
+  margin: auto;
+}
+
+/* 入力欄要素全体の幅 */
+input {
+  width: 100%;
+}
+
+/* ログインボタン要素の色と角丸 */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+}

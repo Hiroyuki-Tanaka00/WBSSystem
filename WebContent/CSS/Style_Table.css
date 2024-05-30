@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+h1,h2{
+	text-align: center;
+}
+
+/* フォームの幅と高さを指定する */
+form {
+	margin: 0 auto;
+}
+
+/* テーブルの幅と高さを指定する */
+table {
+	width: 500px;
+	height: 400px;
+	margin: auto;
+}
+
+/* テーブルにスクロールを付ける */
+.table-contents {
+  overflow-y: auto;
+  height: 300px;
+}
+
+/* テーブルのキャプションの文字色とサイズを指定する */
+caption {
+	font-size: 20px;
+}
+
+/* テーブルのヘッダーの背景色と文字色を指定する */
+th {
+  background-color: navy;
+  color: white;
+}
+
+/* テーブルのデータの背景色と文字色を指定する */
+td {
+  background-color: lightblue;
+  color: black;
+}
+
+/* ボタンの幅と高さと背景色と文字色を指定する */
+.button {
+  width: 100px;
+  height: 50px;
+  background-color: navy;
+  color: white;
+}
+
+/* ボタンの配置を中央にする */
+table,input, p{
+	text-align: center;
+}
+
+div.container {
+  display: flex;
+  justify-content: center;
+}
+
+div.container a {
+  margin: 0 200px; /* 適宜マージンの値を調整 */
+}
+
+
+
+/*フローコントロールそのものの中央ぞろえ*/
+table{
+	text-align: center;
+}
+
+div.buttonall{
+	text-align: center;
+}
+
+div.search{
+	text-align: center;
+}
+
+div.csvreader{
+	text-align: center;
+}

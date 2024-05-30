@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+  background-color: #fff;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: normal;
+  color: #666;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}

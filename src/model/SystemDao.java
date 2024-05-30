@@ -28,7 +28,7 @@ public class SystemDao {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 
 			//DBに接続(URL,USER_ID,PASSWARD
-			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "WBS","hiroyuki990809");
+			//省略
 
 
 			String sql = "SELECT COUNT(*) FROM user_info WHERE user_name = ?";
@@ -88,7 +88,7 @@ public class SystemDao {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 
 			//DBに接続(URL,USER_ID,PASSWARD
-			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "WBS","hiroyuki990809");
+			//省略
 
 			//自動コミットを無効化
 			conn.setAutoCommit(false);
@@ -146,7 +146,7 @@ public class SystemDao {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 
 			//DBに接続(URL,USER_ID,PASSWARD
-			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "WBS","hiroyuki990809");
+			//省略
 
 			String sql = "SELECT COUNT(*) FROM wbs_info WHERE wbs_name = ?";
 
@@ -200,7 +200,7 @@ public class SystemDao {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 
 			//DBに接続(URL,USER_ID,PASSWARD
-			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "WBS","hiroyuki990809");
+			//省略
 
 			String sql = "SELECT WBS_ID FROM WBS_INFO WHERE WBS_NAME = ?";
 
@@ -271,7 +271,7 @@ public class SystemDao {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 
 			//DBに接続(URL,USER_ID,PASSWARD
-			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "WBS","hiroyuki990809");
+			//省略
 
 			//自動コミットを無効化
 			conn.setAutoCommit(false);
@@ -327,7 +327,7 @@ public class SystemDao {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 
 			//DBに接続(URL,USER_ID,PASSWARD
-			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "WBS","hiroyuki990809");
+			//省略
 
 			String sql = "SELECT USER_ID, USER_NAME FROM USER_INFO ORDER BY USER_ID";
 
@@ -383,7 +383,7 @@ public class SystemDao {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 
 			//DBに接続(URL,USER_ID,PASSWARD
-			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "WBS","hiroyuki990809");
+			//省略
 
 			String sql = "SELECT USER_ID FROM USER_INFO WHERE USER_NAME = ?";
 
@@ -484,7 +484,7 @@ public class SystemDao {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 
 			//DBに接続(URL,USER_ID,PASSWARD
-			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "WBS","hiroyuki990809");
+			//省略
 
 
 			String sql = "SELECT USER_ID FROM USER_INFO WHERE USER_NAME = ?";
@@ -690,7 +690,7 @@ public class SystemDao {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 
 			//DBに接続(URL,USER_ID,PASSWARD
-			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "WBS","hiroyuki990809");
+			//省略
 
 			//プレースホルダーでSQL作成
 			String sql = "SELECT COUNT(*) FROM user_info WHERE user_name = ?";
@@ -755,7 +755,7 @@ public class SystemDao {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 
 			//DBに接続(URL,USER_ID,PASSWARD
-			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "WBS","hiroyuki990809");
+			//省略
 
 			//WBS_IDを検索
 			String sql = "SELECT PLAN_ID FROM PLAN_INFO WHERE PLAN_ID = ?";
@@ -900,7 +900,7 @@ public class SystemDao {
 
 
 			//DBに接続(URL,USER_ID,PASSWARD
-			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "WBS","hiroyuki990809");
+			//省略
 
 			//WBS_IDを検索
 			String sql = "SELECT WBS_ID FROM WBS_INFO WHERE WBS_NAME = ?";
@@ -992,7 +992,7 @@ public class SystemDao {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 
 			//DBに接続(URL,USER_ID,PASSWARD
-			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "WBS","hiroyuki990809");
+			//省略
 
 			//USER_INFOテーブルからuser_idを取得
 			String sql = "SELECT USER_ID FROM USER_INFO WHERE USER_NAME = ?";
@@ -1108,7 +1108,7 @@ public class SystemDao {
 
 
 			//DBに接続(URL,USER_ID,PASSWARD
-			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "WBS","hiroyuki990809");
+			//省略
 
 			// プレースホルダでSQL文を作成
 			String sql = "SELECT * FROM USER_INFO WHERE USER_NAME = ? AND USER_PASSWORD = ?";
